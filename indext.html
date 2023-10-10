@@ -18,8 +18,8 @@
 
     <div class="root">
         <div class="head">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+            <nav style="position: fixed;" class="navbar navbar-expand-lg bg-body-tertiary fluiid col-12">
+                <div style="display: flex;" class="container-fluid">
                     <div class="non-item"></div>
                     <a class="navbar-brand" href="#">Start Bootstrap</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,7 +48,7 @@
                 </div>
             </nav>
         </div>
-        <div class="head-content">
+        <div class="head-content ">
             <div class="title">
                 <h1 class="display-4 col-5">your Favorite Place for Free Bootstrap Themes</h1>
             </div>
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-">
         <div class="container-fluid text-center" style="background-color: #f4623a;">
 
             <div class="">
@@ -81,35 +81,34 @@
             <div class="btn-mid"><button class="btn-content">GET STARTED</button></div>
         </div>
 
-        <div class="container-fluid" id="descriptionService">
+        <div class="container-sm-12" id="descriptionService">
             <div class="container-fluid-area">
                 <h1 class="description-title text-center">At Your Service</h1>
             </div>
-
             <div class="container text-center">
-                <div class="row">
-                    <div class="col">
+                <div class="row  md-12 sm-6">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-diamond" style="font-size: 36px; color: red"></i>
                         </div>
                         <b>Sturdy Themes</b>
                         <p>All dependencies are kept current to keep things fresh.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-laptop" style="font-size: 36px; color: red"></i>
                         </div>
                         <b>Up to Date</b>
                         <p>All dependencies are kept current to keep things fresh.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-globe" style="font-size: 36px; color: red"></i>
                         </div>
                         <b>Ready to Publish</b>
                         <p>You can use this design as is, or you can make changes!</p>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-heart" style="font-size: 36px; color: red"></i>
                         </div>
@@ -118,12 +117,13 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="li-project">
-                <div class="project-item">
+    <div class="container- text-center container-sm-12 ">
+        <div class="row container-sm-12">
+            <div class="li-project container-sm-12 ">
+                <div class="project-item md-6 sm-12 ">
                     <a class="link-another-site" href="#">
                         <img class="size-img"
                             src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
@@ -195,9 +195,9 @@
 
     </div>
     </div>
-    <div class="container text-center" id="container-footer">
-        <div class="row ">
-            <div class="col">
+    <div class=" container-fluid text-center" id="container-footer">
+        <div class="container-fluid row text-center ">
+            <div class="  col-12 ">
                 <p class="text-bottom h1" style="color: #fff;">Free Download at Start Bootstrap!</p>
                 <button type="button" class="btn btn-light mt-2">Download NOW</button>
             </div>
@@ -230,9 +230,8 @@
                 <textarea class="form-control" id="messages" rows="1"
                     placeholder="Write your message here..."></textarea>
             </div>
-           <div class="f-btn">
-            <button class="btn btn-danger">SUBMIT</button>
-           </div>
+            <button type="button" class="btn btn-outline-secondary">Submit</button>
+
         </div>
     </div>
 
