@@ -18,18 +18,20 @@
 
     <div class="root">
         <div class="head">
-            <nav style="position: fixed;" class="navbar navbar-expand-lg bg-body-tertiary fluiid col-12">
-                <div style="display: flex;" class="container-fluid">
+            <div style="position: fixed; z-index: 10;" class="navbar navbar-expand-lg bg-body-tertiary fluiid col-12 ">
+                <div style="display: flex;" id="nav" class="container-fluid">
                     <div class="non-item"></div>
                     <a class="navbar-brand" href="#">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="menu-area">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                     <div class="col-7"></div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto  mb-5 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">About</a>
                             </li>
@@ -46,7 +48,7 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
         <div class="head-content ">
             <div class="title">
@@ -120,75 +122,73 @@
 
         </div>
     </div>
-    <div class="container- text-center container-sm-12 ">
-        <div class="row container-sm-12">
-            <div class="li-project container-sm-12 ">
-                <div class="project-item md-6 sm-12 ">
-                    <a class="link-another-site" href="#">
-                        <img class="size-img"
-                            src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
-                            alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="text-white">Category</div>
-                            <div class="text-white2">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a class="link-another-site" href="#">
-                        <img class="size-img"
-                            src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
-                            alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="text-white">Category</div>
-                            <div class="text-white2">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a class="link-another-site" href="#">
-                        <img class="size-img"
-                            src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
-                            alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="text-white">Category</div>
-                            <div class="text-white2">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a class="link-another-site" href="#">
-                        <img class="size-img"
-                            src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
-                            alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="text-white">Category</div>
-                            <div class="text-white2">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a class="link-another-site" href="#">
-                        <img class="size-img"
-                            src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
-                            alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="text-white">Category</div>
-                            <div class="text-white2">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a class="link-another-site" href="#">
-                        <img class="size-img"
-                            src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
-                            alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="text-white">Category</div>
-                            <div class="text-white2">Project Name</div>
-                        </div>
-                    </a>
-                </div>
+    <div class="container-fluid p-0 text-c pt-0 enter container-sm-12 ">
+        <div class="li-project container-sm-12 ">
+            <div class="project-item md-6 sm-12 ">
+                <a class="link-another-site" href="#">
+                    <img class="size-img"
+                        src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
+                        alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="text-white">Category</div>
+                        <div class="text-white2">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="link-another-site" href="#">
+                    <img class="size-img"
+                        src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
+                        alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="text-white">Category</div>
+                        <div class="text-white2">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="link-another-site" href="#">
+                    <img class="size-img"
+                        src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
+                        alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="text-white">Category</div>
+                        <div class="text-white2">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="link-another-site" href="#">
+                    <img class="size-img"
+                        src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
+                        alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="text-white">Category</div>
+                        <div class="text-white2">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="link-another-site" href="#">
+                    <img class="size-img"
+                        src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
+                        alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="text-white">Category</div>
+                        <div class="text-white2">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="link-another-site" href="#">
+                    <img class="size-img"
+                        src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg"
+                        alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="text-white">Category</div>
+                        <div class="text-white2">Project Name</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
